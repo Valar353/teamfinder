@@ -1,0 +1,53 @@
+.chatWrapper{
+    width: 300px;
+    height: 400px;
+    background-color: #61dafb;
+    border: 2px solid greenyellow;
+    position: relative;
+
+}
+.chatTitle{
+    width: 100%;
+    background-color: #61dafb;
+    overflow: hidden;
+    padding: 5px 15px;
+    border-bottom: 2px solid black;
+}
+.chatTitle p{
+    float: left;
+    padding-right: 20px;
+
+}
+.chatOnline{
+    position: relative;
+
+}
+.chatOnline:before{
+    content: '';
+    background-color: green;
+    border-radius: 20px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: -10px;
+    top: 10px;
+}
+.message{
+    border: 1px solid black;
+}
+.userAvatar{
+    width: 50px;
+    float: left;
+}
+.userName{
+    float: left;
+    width: calc(100% - 50px);
+    height: 50px;
+    margin: 0;
+}
+.chatInput{
+    height: 50px;
+    widows: 100%;
+    position: absolute;
+    bottom: -50px;
+}
